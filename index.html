@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
@@ -15,7 +16,7 @@
     <header class="header">
         <div class="container">
             <div class="header__container">
-                <div class="header__container-top">
+                <div class="header__container-top"> 
                     <div class="logo" data-aos="fade-right" data-aos-duration="1500">
                         <a href="#" class="logo-link">Shortly</a>
                     </div>
@@ -23,25 +24,23 @@
                     <!-- Desktop Navigation -->
                     <nav class="nav">
                         <ul class="nav-links">
+                            
                             <li data-aos="flip-up"  data-aos-delay="300"><a href="#" >Features</a></li>
                             <li data-aos="flip-up"  data-aos-delay="600"><a href="#">Pricing</a></li>
                             <li data-aos="flip-up"  data-aos-delay="900"><a href="#">Resources</a></li>
                         </ul>
                     </nav>
                 </div>
-
+                <input type="checkbox" id="chek">
+                <label for="chek" class="icons">
+                    <i class='bx bx-menu' id="menu-icon"></i>
+                    <i class='bx bx-x' id="close-icon"></i>
+                </label>
                 <!-- Desktop Registration -->
                 <div class="registration">
                     <a href="#" data-aos="flip-up" data-aos-delay="1200" class="login">Login</a>
                     <a href="#" data-aos="flip-up" data-aos-delay="1500" class="sign">Sign Up</a>
                 </div>
-
-                <!-- Mobile Menu Button -->
-                <button class="hamburger" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
             </div>
         </div>
     </header>
